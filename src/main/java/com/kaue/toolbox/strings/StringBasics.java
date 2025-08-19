@@ -60,10 +60,10 @@ public class StringBasics {
         String hello = "Hello".concat(" World");
         System.out.println("concat = " + hello);
 
-        // repeat (Java 11+)
+        // repeat
         System.out.println("repeat 3x = " + "Hi ".repeat(3));
 
-        // join (estático, com delimitador)
+        // join
         String frutas = String.join(", ", "Maçã", "Banana", "Uva");
         System.out.println("join = " + frutas);
 
@@ -77,7 +77,7 @@ public class StringBasics {
         String msg = String.format("Meu nome é %s e tenho %d anos.", nome, idade);
         System.out.println("format = " + msg);
 
-        // strip, stripLeading, stripTrailing (Java 11+)
+        // strip, stripLeading, stripTrailing
         String comEspacos = "   Java   ";
         System.out.println("strip = '" + comEspacos.strip() + "'");
         System.out.println("stripLeading = '" + comEspacos.stripLeading() + "'");
@@ -86,5 +86,9 @@ public class StringBasics {
         // lines (quebra em linhas → retorna Stream<String>)
         String multiLine = "Linha1\nLinha2\nLinha3";
         multiLine.lines().forEach(l -> System.out.println("line = " + l));
+
+        //valueOf
+        String numStr = String.valueOf(123);
+        System.out.println(numStr); // "123"
     }
 }

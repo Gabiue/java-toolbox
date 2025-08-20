@@ -154,6 +154,12 @@ public class ListsBasics {
         carrinho.add("Teclado");
         System.out.println("Carrinho: "+carrinho);
 
+        // FOREACH - controle total da formatação
+        System.out.println("Itens do carrinho:");
+        for (String item : carrinho) {
+            System.out.println("- " + item);
+        }
+
         // Cliente mudou de ideia - remove item
         carrinho.remove("Mouse");
         System.out.println("Após remoção: " + carrinho);

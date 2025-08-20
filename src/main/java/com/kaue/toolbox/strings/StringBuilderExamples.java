@@ -99,7 +99,7 @@ public class StringBuilderExamples {
         usuario.insert(usuario.length(), ", Cidade: São Paulo"); // adiciona cidade
         System.out.println("UPDATE → " + usuario);
 
-// DELETE (remover informações)
+        // DELETE (remover informações)
         int posIdade = usuario.indexOf("Idade");
         usuario.delete(posIdade, posIdade + "Idade: 19".length()); // remove idade
         System.out.println("DELETE → " + usuario);

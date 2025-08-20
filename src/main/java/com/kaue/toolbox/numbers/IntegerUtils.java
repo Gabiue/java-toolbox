@@ -29,7 +29,7 @@ public class IntegerUtils {
         System.out.println(Integer.MIN_VALUE);
 
         System.out.println("\n--- BITS ---");
-        int x = 177; // 0b10110001
+        int x = 177; //
         System.out.println(Integer.bitCount(x));         // 4
         System.out.println(Integer.highestOneBit(x));    // 128
         System.out.println(Integer.lowestOneBit(x));     // 1
@@ -39,8 +39,8 @@ public class IntegerUtils {
         System.out.println(Integer.toUnsignedString(neg)); // 4294967295
 
         System.out.println("\n--- AUTOBOXING ---");
-        Integer boxed = a;   // autoboxing
-        int prim = boxed;    // unboxing
+        Integer boxed = a;
+        int prim = boxed;
         System.out.println(boxed + " / " + prim);
 
         System.out.println("\n--- RECEITAS ---");

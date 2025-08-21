@@ -21,16 +21,22 @@ java-toolbox/
 │  │  │  ├─ StringSearching.java ✅
 │  │  │  ├─ StringBuilderExamples.java ✅
 │  │  │  └─ RegexBasics.java ✅
+│  │  ├─ regex/
+│  │  │  ├─ RegexBasics.java ✅
+│  │  │  ├─ RegexGroups.java ✅
+│  │  │  ├─ RegexReplace.java ✅
+│  │  │  └─ RegexValidation.java ✅
 │  │  ├─ numbers/
-│  │  │  ├─ IntegerUtils.java
-│  │  │  ├─ LongUtils.java
-│  │  │  ├─ BigDecimalBasics.java
-│  │  │  └─ MathAndRandom.java
+│  │  │  ├─ IntegerUtils.java ✅
+│  │  │  ├─ LongUtils.java ✅
+│  │  │  ├─ BigDecimalUtils.java ✅
+│  │  │  └─ MathAndRandom.java ✅
 │  │  ├─ collections/
-│  │  │  ├─ ListsBasics.java
-│  │  │  ├─ SetsBasics.java
-│  │  │  ├─ MapsBasics.java
-│  │  │  └─ ComparatorsAndRecords.java
+│  │  │  ├─ ListsBasics.java ✅
+│  │  │  ├─ SetsBasics.java ✅
+│  │  │  ├─ MapsBasics.java ✅
+│  │  │  ├─ QueueBasics.java ✅
+│  │  │  └─ ComparatorsAndRecords.java ⏳
 │  │  ├─ streams/
 │  │  │  ├─ StreamBasics.java
 │  │  │  ├─ CollectorsRecipes.java
@@ -75,17 +81,24 @@ java-toolbox/
 - ✅ StringBuilderExamples.java
 - ✅ RegexBasics.java
 
-### ⏳ Numbers (0/4)
-- ⬜ IntegerUtils.java
-- ⬜ LongUtils.java
-- ⬜ BigDecimalBasics.java
-- ⬜ MathAndRandom.java
+### ✅ Regex (4/4)
+- ✅ RegexBasics.java
+- ✅ RegexGroups.java
+- ✅ RegexReplace.java
+- ✅ RegexValidation.java
 
-### ⏳ Collections (0/4)
-- ⬜ ListsBasics.java
-- ⬜ SetsBasics.java
-- ⬜ MapsBasics.java
-- ⬜ ComparatorsAndRecords.java
+### ✅ Numbers (4/4)
+- ✅ IntegerUtils.java
+- ✅ LongUtils.java
+- ✅ BigDecimalUtils.java
+- ✅ MathAndRandom.java
+
+### ✅ Collections (4/5)
+- ✅ ListsBasics.java
+- ✅ SetsBasics.java
+- ✅ MapsBasics.java
+- ✅ QueueBasics.java
+- ⏳ ComparatorsAndRecords.java
 
 ### ⏳ Streams (0/3)
 - ⬜ StreamBasics.java
@@ -150,4 +163,4 @@ java src/main/java/com/kaue/toolbox/strings/StringBasics.java
 mvn test
 ```
 
-**Progresso Total**: 4/40 classes implementadas (10%)
+**Progresso Total**: 16/32 classes implementadas (50%!) 🎉

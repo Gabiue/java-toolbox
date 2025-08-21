@@ -36,7 +36,7 @@ java-toolbox/
 │  │  │  ├─ SetsBasics.java ✅
 │  │  │  ├─ MapsBasics.java ✅
 │  │  │  ├─ QueueBasics.java ✅
-│  │  │  └─ ComparatorsAndRecords.java ⏳
+│  │  │  └─ ComparatorsAndRecords.java ✅
 │  │  ├─ streams/
 │  │  │  ├─ StreamBasics.java
 │  │  │  ├─ CollectorsRecipes.java
@@ -93,12 +93,12 @@ java-toolbox/
 - ✅ BigDecimalUtils.java
 - ✅ MathAndRandom.java
 
-### ✅ Collections (4/5)
+### ✅ Collections (5/5)
 - ✅ ListsBasics.java
 - ✅ SetsBasics.java
 - ✅ MapsBasics.java
 - ✅ QueueBasics.java
-- ⏳ ComparatorsAndRecords.java
+- ✅ ComparatorsAndRecords.java
 
 ### ⏳ Streams (0/3)
 - ⬜ StreamBasics.java
@@ -163,4 +163,4 @@ java src/main/java/com/kaue/toolbox/strings/StringBasics.java
 mvn test
 ```
 
-**Progresso Total**: 16/32 classes implementadas (50%!) 🎉
+**Progresso Total**: 17/32 classes implementadas (53%!) 🎉

@@ -10,7 +10,6 @@ public class QueueBasics {
         // LinkedList implementa Queue
         Queue<String> fila = new LinkedList<>();
         System.out.println("Fila vazia: " + fila);
-
         // ArrayDeque - mais eficiente que LinkedList
         Queue<String> filaDeque = new ArrayDeque<>();
 

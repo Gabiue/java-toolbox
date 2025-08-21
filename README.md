@@ -2,7 +2,7 @@
 
 Repositório para **dominar a biblioteca padrão do Java** (java.base e módulos úteis), com exemplos minimalistas, exercícios, testes automatizados e referências.
 
-> Filosofia: *1 classe/utilidade por arquivo + 1 teste por comportamento*, exemplos curtos e focados, sem frameworks externos (apenas JUnit para testes).
+> Filosofia: *1 classe/utilidade por arquivo + 1 teste por comportamento*, exemplos curtos e focados, sem frameworks externos.
 
 ---
 

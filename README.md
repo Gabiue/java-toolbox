@@ -38,26 +38,35 @@ java-toolbox/
 │  │  │  ├─ QueueBasics.java ✅
 │  │  │  └─ ComparatorsAndRecords.java ✅
 │  │  ├─ streams/
-│  │  │  ├─ StreamBasics.java
-│  │  │  ├─ CollectorsRecipes.java
-│  │  │  └─ OptionalPatterns.java
-│  │  ├─ dates/
+│  │  │  ├─ StreamBasics.java ✅
+│  │  │  ├─ CollectorsRecipes.java ⏳
+│  │  │  └─ OptionalPatterns.java ⏳
+│  │  ├─ javapillars/
+│  │  │  ├─ encapsulation/
+│  │  │  │  ├─ EncapsulationSyntax.java ✅
+│  │  │  │  ├─ BankAccountExample.java ✅
+│  │  │  │  ├─ ProductExample.java ⏳
+│  │  │  │  └─ UserExample.java ⏳
+│  │  │  ├─ inheritance/ ⏳
+│  │  │  ├─ polymorphism/ ⏳
+│  │  │  └─ abstraction/ ⏳
+│  │  ├─ dates/ ⏳
 │  │  │  ├─ LocalDateTimeBasics.java
 │  │  │  ├─ DurationPeriod.java
 │  │  │  └─ DateTimeFormatting.java
-│  │  ├─ io_nio/
+│  │  ├─ io_nio/ ⏳
 │  │  │  ├─ FilesAndPaths.java
 │  │  │  └─ ReadWriteSmallFiles.java
-│  │  ├─ concurrency/
+│  │  ├─ concurrency/ ⏳
 │  │  │  ├─ ThreadsBasics.java
 │  │  │  └─ ExecutorsAndFutures.java
-│  │  ├─ net_http/
+│  │  ├─ net_http/ ⏳
 │  │  │  └─ HttpClientBasics.java
-│  │  ├─ lang/
+│  │  ├─ lang/ ⏳
 │  │  │  ├─ ObjectsAndRecords.java
 │  │  │  ├─ PatternMatching.java
 │  │  │  └─ SwitchExpressions.java
-│  │  └─ util/
+│  │  └─ util/ ⏳
 │  │     ├─ Preconditions.java
 │  │     └─ Tuple.java
 │  └─ test/java/com/kaue/toolbox/
@@ -75,35 +84,45 @@ java-toolbox/
 
 ## 🚀 Status do Projeto
 
-### ✅ Strings (4/4)
+### ✅ Strings (4/4) - COMPLETO
 - ✅ StringBasics.java
 - ✅ StringSearching.java
 - ✅ StringBuilderExamples.java
 - ✅ RegexBasics.java
 
-### ✅ Regex (4/4)
+### ✅ Regex (4/4) - COMPLETO
 - ✅ RegexBasics.java
 - ✅ RegexGroups.java
 - ✅ RegexReplace.java
 - ✅ RegexValidation.java
 
-### ✅ Numbers (4/4)
+### ✅ Numbers (4/4) - COMPLETO
 - ✅ IntegerUtils.java
 - ✅ LongUtils.java
 - ✅ BigDecimalUtils.java
 - ✅ MathAndRandom.java
 
-### ✅ Collections (5/5)
+### ✅ Collections (5/5) - COMPLETO
 - ✅ ListsBasics.java
 - ✅ SetsBasics.java
 - ✅ MapsBasics.java
 - ✅ QueueBasics.java
 - ✅ ComparatorsAndRecords.java
 
-### ⏳ Streams (0/3)
-- ⬜ StreamBasics.java
-- ⬜ CollectorsRecipes.java
-- ⬜ OptionalPatterns.java
+### 🔄 Streams (1/3) - EM PROGRESSO
+- ✅ StreamBasics.java
+- ⏳ CollectorsRecipes.java
+- ⏳ OptionalPatterns.java
+
+### 🔄 Java Pillars (2/12) - EM PROGRESSO
+- **Encapsulation (2/4):**
+    - ✅ EncapsulationSyntax.java
+    - ✅ BankAccountExample.java
+    - ⏳ ProductExample.java
+    - ⏳ UserExample.java
+- **Inheritance (0/3):** ⏳
+- **Polymorphism (0/3):** ⏳
+- **Abstraction (0/2):** ⏳
 
 ### ⏳ Dates (0/3)
 - ⬜ LocalDateTimeBasics.java
@@ -139,6 +158,13 @@ java-toolbox/
 - ⬜ ListsBasicsTest.java
 - ⬜ Demais testes...
 
+## 🎯 Foco Atual
+
+**MÓDULO EM PROGRESSO:** Java Pillars - Encapsulation
+- 📍 **Próximo:** Finalizar exemplos de encapsulamento (ProductExample, UserExample)
+- 📍 **Depois:** Inheritance, Polymorphism, Abstraction
+- 📍 **Paralelo:** Continuar Streams (CollectorsRecipes, OptionalPatterns)
+
 ## 📦 Dependências
 
 ```xml
@@ -163,4 +189,15 @@ java src/main/java/com/kaue/toolbox/strings/StringBasics.java
 mvn test
 ```
 
-**Progresso Total**: 17/32 classes implementadas (53%!) 🎉
+## 🎉 Destaques Recentes
+
+- ✅ **Módulo Collections FINALIZADO** com exemplos práticos
+- ✅ **StreamBasics implementado** com filter, map, collect, exemplos reais
+- ✅ **Java Pillars iniciado** com foco em encapsulamento
+- ✅ **BankAccountExample completo** demonstrando encapsulamento na prática
+
+**Progresso Total**: 19/37 classes implementadas (51%!) 🚀
+
+---
+
+> **Metodologia**: Construção gradual, questionamentos, explicações detalhadas, conexão entre conceitos, exemplos práticos que funcionam no mundo real.
